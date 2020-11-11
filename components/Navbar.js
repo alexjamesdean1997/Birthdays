@@ -1,26 +1,25 @@
 import React from "react";
-import './../styles/header.css';
+import {View, Text, StyleSheet} from "react-native";
 
-function Navbar() {
+const Navbar = () => {
     return(
-        <header>
-            <div className="logo">
-                AJD
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://google.com">Services</a>
-                    </li>
-                    <li>
-                        <a href="https://google.com">Clients</a>
-                    </li>
-                    <li>
-                        <a href="https://google.com">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <View>
+            <View>
+                <Text>H</Text>
+            </View>
+            <View>
+                <Text>C</Text>
+            </View>
+            <View>
+                <Text>A</Text>
+            </View>
+            <View>
+                <Text>P</Text>
+            </View>
+            <View>
+                <Text>S</Text>
+            </View>
+        </View>
     )
 }
 

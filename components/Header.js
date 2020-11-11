@@ -1,27 +1,44 @@
 import React from "react";
-import './../styles/header.css';
+import {View, Text, Image, StyleSheet} from "react-native";
 
-function Navbar() {
+const Header = () => {
     return(
-        <header>
-            <div className="logo">
-                AJD
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://google.com">Services</a>
-                    </li>
-                    <li>
-                        <a href="https://google.com">Clients</a>
-                    </li>
-                    <li>
-                        <a href="https://google.com">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <View style={styles.container}>
+            <Image style={{
+                width: 24,
+                height: 18,
+                resizeMode: 'contain'
+            }} source={require('../assets/icons/cake.svg')} />
+            <View>
+                <Text style={styles.logoText}>Birthdays</Text>
+            </View>
+        </View>
     )
-}
+};
 
-export default Navbar;
+const styles = StyleSheet.create({
+    container: {
+        paddingTop: 44,
+        paddingLeft: 14,
+        paddingRight: 14,
+        paddingBottom: 10,
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "#f2f2f2",
+        boxShadow: "0 0 16px rgba(0,0,0,0.25)",
+        position: "fixed",
+        top: 0,
+        left: 0,
+        right: 0,
+        zIndex: 3,
+    },
+    logoText: {
+        color: "#39D0B2",
+        paddingLeft: 10,
+        fontSize: 33,
+        fontWeight: 800,
+    },
+});
+
+export default Header;

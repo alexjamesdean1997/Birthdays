@@ -1,29 +1,44 @@
-const TodosData = [
+const BirthdaysData = [
     {
         id: 1,
-        text: "Take out the trash",
-        completed: true
+        firstName: "Ellen",
+        lastName: "Fisher",
+        birthDay: 20,
+        birthMonth: 5,
+        image: ""
     },
     {
         id: 2,
-        text: "Grocery shopping",
-        completed: false
+        firstName: "Sean",
+        lastName: "North",
+        birthDay: 28,
+        birthMonth: 5,
+        image: ""
     },
     {
         id: 3,
-        text: "Clean gecko tank",
-        completed: false
+        firstName: "Paul",
+        lastName: "Stanton",
+        birthDay: 3,
+        birthMonth: 6,
+        image: ""
     },
     {
         id: 4,
-        text: "Mow lawn",
-        completed: true
+        firstName: "Laura",
+        lastName: "Martin",
+        birthDay: 11,
+        birthMonth: 6,
+        image: ""
     },
     {
         id: 5,
-        text: "Catch up on Arrested Development",
-        completed: false
+        firstName: "Charles",
+        lastName: "Farrow",
+        birthDay: 15,
+        birthMonth: 6,
+        image: ""
     }
 ];
 
-export default TodosData;
+export default BirthdaysData;
