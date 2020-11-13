@@ -49,8 +49,6 @@ const styles = StyleSheet.create({
         paddingLeft: 12,
         borderTopWidth: 1,
         borderTopColor: "#EBEBEB",
-        //borderBottomWidth: 1,
-        //borderBottomColor: "#EBEBEB",
         width: "-webkit-fill-available",
         display: "flex",
         flexDirection: "row",
